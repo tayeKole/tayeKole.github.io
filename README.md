@@ -10,6 +10,8 @@
 
 [Lesson 5](https://github.com/tayeKole/tayeKole.github.io/edit/main/README.md#lesson-5)
 
+[Lesson 6(https://github.com/tayeKole/tayeKole.github.io/edit/main/README.md#lesson-6)
+
 ## lesson 1
  learned repeat loops and how to make a square
 
@@ -86,3 +88,12 @@ I learnt this is best to locate your errors in you project
 </code></pre>
 ![image](https://user-images.githubusercontent.com/122093059/224302132-e3bb5a6e-8e8c-4ff4-a7d0-940483b12c00.png)
 This fills the square
+
+## lesson 6
+In this lesson we learnt about variables and how you make them along with how to get human input
+<pre><code>make "jack 50
+fd :jack
+make "name (readword[what is your name])
+<code/></pre>
+To make a variable you have to say **make "variableName amount**
+Readword word lets you get user input by asking the person using the progrman to input thier Name; Age; grade etc.

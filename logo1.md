@@ -35,7 +35,7 @@ learned how to make more complex shapes and how to find the degrees of a shape, 
 
 
  ## lesson 3
- We where challenged to build a house using log the furthest i got was to building the floor and the building itself.
+ We where challenged to build a house using logo.
  ### Code for the house
  if you use this i suggest ctrl + scroll out until it fits your screen
 <pre><code>;sets up house base
@@ -75,16 +75,16 @@ show {Taye Colesky nine e}
 
 
 ## lesson 4
-### In this lesson we learnt how to comment thing out like you would see in the above lesson
-<pre><code>;this comments this message by using a semicolon anything after the semicolon on that line
+### In this lesson we learnt how to comment things out like you would see in the above lesson
+<pre><code>;this comments this message out by using a semicolon, anything after the semicolon on that line will not be used in the code
 </code></pre>
 ![image](https://user-images.githubusercontent.com/122093059/224301624-0dbda88b-ef26-4918-9b37-428c2ed4ea42.png)
 
-I learnt this is best to locate your errors in you project
+I learnt this is best to locate your errors in your project
 
 ## lesson 5
-### In this lesson we learnt about the **filled** command that fills everything that uis in its brackect
-<pre><code>filled[repeat 4[fd 100 rt 90]]
+In this lesson we learnt about the **filled** command that fills everything that is bracketed, along with the concept of random which select a random number given its range 
+<pre><code>filled randomcolor 100[repeat 4[fd 100 rt 90]]
 </code></pre>
 ![image](https://user-images.githubusercontent.com/122093059/224302132-e3bb5a6e-8e8c-4ff4-a7d0-940483b12c00.png)
 This fills the square
@@ -96,4 +96,4 @@ fd :jack
 make "name (readword[what is your name])
 <code/></pre>
 To make a variable you have to say **make "variableName amount**
-Readword word lets you get user input by asking the person using the progrman to input thier Name; Age; grade etc.
+Readword lets you get user input by asking the person using the progrman to input thier Name; Age; grade etc.

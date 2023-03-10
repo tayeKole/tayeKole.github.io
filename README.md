@@ -10,7 +10,7 @@
 
 [Lesson 5](https://github.com/tayeKole/tayeKole.github.io/edit/main/README.md#lesson-5)
 
-[Lesson 6(https://github.com/tayeKole/tayeKole.github.io/edit/main/README.md#lesson-6)
+[Lesson 6](https://github.com/tayeKole/tayeKole.github.io/edit/main/README.md#lesson-6)
 
 ## lesson 1
  learned repeat loops and how to make a square

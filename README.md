@@ -18,6 +18,7 @@ learned how to make more complex shapes and how to find the degrees of a shape, 
  ## lesson 3
  We where challenged to build a house using log the furthest i got was to building the floor and the building itself.
  ### Code for the house
+ if you use this i suggest ctrl + scroll out until it fits your screen
 <pre><code>;sets up house base
 cs pu bk 400 rt 90 pd fd 1000000 setx 200 lt 90 ;ht 
 

@@ -52,3 +52,14 @@ repeat 4[fd 50 lt 90] repeat 2[repeat 4[fd 25 lt 90]fd 25] lt 90 fd 50 lt 90 rep
 
 show {Taye Colesky nine e}
 </code></pre>
+
+## lesson 4
+### In this lesson we learnt how to comment thing out like you would see in the above lesson
+<pre><code>;this comments this message by using a semicolon anything after the semicolon on that line
+</code></pre>
+I learnt this is best to locate your errors in you project
+
+## lesson 5
+### In this lesson we learnt about the **filled** command that fills everything that uis in its brackect
+<pre><code>filled[repeat 4[fd 100 rt 90]]
+</code></pre>

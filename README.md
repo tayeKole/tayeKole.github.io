@@ -18,6 +18,36 @@ learned how to make more complex shapes and how to find the degrees of a shape, 
  ## lesson 3
  We where challenged to build a house using log the furthest i got was to building the floor and the building itself.
  ### Code for the house
-<pre><code>cs pu bk 200 rt 90 pd fd 1000000 setx 200 lt 90
-repeat 4[fd 400 lt 90]
+<pre><code>;sets up house base
+cs pu bk 400 rt 90 pd fd 1000000 setx 200 lt 90 ;ht 
+
+;building the main house and roof
+repeat 4[fd 400 lt 90] fd 400 lt 30
+repeat 2[fd 400 lt 120] seth 180 fd 100 rt 90
+
+;sets up the entire side houses
+repeat 2[fd 300 lt 90] fd 700 lt 90
+repeat 3[fd 300 rt 90] rt 90 fd 300  rt 90
+repeat 2[lt 120 fd 300] rt 60 pu fd 400 pd rt 180
+repeat 2[lt 120 fd 300] pu setxy -150 -100 seth 90 pd
+
+;builds the windows main house
+repeat 4[fd 100 rt 90] repeat 2[repeat 4[fd 50 rt 90]fd 50] rt 90 fd 100 rt 90 repeat 2[repeat 4[fd 50 rt 90]fd 50] 
+pu setxy 150 -100 seth 90 pd lt 180
+repeat 4[fd 100 lt 90] repeat 2[repeat 4[fd 50 lt 90]fd 50] lt 90 fd 100 lt 90 repeat 2[repeat 4[fd 50 lt 90]fd 50]
+pu setxy -50 -400 pd rt 270
+
+;sets up door
+repeat 2[fd 150 rt 90 fd 100 rt 90] pu setxy -250 -200 pd lt 90
+
+;builds windows on both side houses
+repeat 4[fd 50 lt 90] repeat 2[repeat 4[fd 25 lt 90]fd 25] lt 90 fd 50 lt 90 repeat 2[repeat 4[fd 25 lt 90]fd 25]
+pu setxy -250 -200 bk 200 pd
+repeat 4[fd 50 rt 90] repeat 2[repeat 4[fd 25 rt 90]fd 25] rt 90 fd 50 rt 90 repeat 2[repeat 4[fd 25 rt 90]fd 25]
+pu setxy 250 -200  rt 180 pd
+repeat 4[fd 50 rt 90] repeat 2[repeat 4[fd 25 rt 90]fd 25] rt 90 fd 50 rt 90 repeat 2[repeat 4[fd 25 rt 90]fd 25]
+pu setxy 250 -200 bk 200 pd
+repeat 4[fd 50 lt 90] repeat 2[repeat 4[fd 25 lt 90]fd 25] lt 90 fd 50 lt 90 repeat 2[repeat 4[fd 25 lt 90]fd 25]
+
+show {Taye Colesky nine e}
 </code></pre>
